@@ -1,0 +1,68 @@
+/*# sourceMappingURL=style.css.map */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  header{
+    background-color: rgb(64, 121, 243);
+    padding: 10px 0;
+  }
+  
+  header a{
+    font-size: 24px ;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  header i{
+    color: #fff;
+    font-size: 20px;  
+    position: relative;
+  }
+  
+  #count{
+    position: absolute;
+      top: -8px;
+      font-size: 14px;
+      background: #fff;
+      color: red;
+      padding: 2px 4px;
+      border-radius: 100%;
+  }
+  
+  img{
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  table img{
+    height: 150px;
+  }
+  
+  .toaster{
+    background: green;
+      color: #fff;
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 7px;
+      position: absolute;
+      bottom: 20px;
+      transition: .6s;
+      right: -20%;
+  }
+  #list img{
+    object-fit: contain;
+    height: 185px;
+  }
+  #select{
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
